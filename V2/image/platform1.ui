@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Platform</class>
+ <widget class="QWidget" name="Platform">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1014</width>
+    <height>846</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Platform</string>
+  </property>
+  <widget class="QLabel" name="centralwidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>590</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>595</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_openCamera">
+      <property name="text">
+       <string>打开摄像头</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_closeCamera">
+      <property name="text">
+       <string>关闭摄像头</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_openRadar">
+      <property name="text">
+       <string>打开雷达</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_closeRadar">
+      <property name="text">
+       <string>关闭雷达</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_openImg">
+      <property name="text">
+       <string>更换地图</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_exit">
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>退出</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_Radar">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>380</y>
+     <width>411</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Camera">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>30</y>
+     <width>421</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>这边是摄像头画面</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_mapImg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>591</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>本地地图</string>
+   </property>
+  </widget>
+  <widget class="QWebEngineView" name="browser" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>29</y>
+     <width>591</width>
+     <height>831</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label_information">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>660</y>
+      <width>231</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>运行信息</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_001">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>730</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>修改</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_002">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>790</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>修改</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_lineSpeed">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>730</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_editSpeed">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>730</y>
+     <width>81</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>发送</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="LineDisplayGB">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>380</y>
+     <width>421</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_angleSpeed">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>790</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>720</y>
+     <width>171</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_speedInfo">
+      <property name="maximumSize">
+       <size>
+        <width>60</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>线速度：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_speedInfo_2">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>角速度：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="label_lineSpeed">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>显示线速度</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="label_angleSpeed">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>显示角速度</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>browser</zorder>
+  <zorder>label_mapImg</zorder>
+  <zorder>centralwidget</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>label_Radar</zorder>
+  <zorder>label_Camera</zorder>
+  <zorder>label_001</zorder>
+  <zorder>label_002</zorder>
+  <zorder>lineEdit_lineSpeed</zorder>
+  <zorder>pushButton_editSpeed</zorder>
+  <zorder>LineDisplayGB</zorder>
+  <zorder>lineEdit_angleSpeed</zorder>
+  <zorder>gridLayoutWidget</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header>PyQt5.QtWebEngineWidgets</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_openCamera</sender>
+   <signal>clicked()</signal>
+   <receiver>label_Camera</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>48</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>699</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_closeCamera</sender>
+   <signal>clicked()</signal>
+   <receiver>label_Camera</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>699</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_closeRadar</sender>
+   <signal>clicked()</signal>
+   <receiver>label_Radar</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>393</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>709</x>
+     <y>419</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_openRadar</sender>
+   <signal>clicked()</signal>
+   <receiver>label_Radar</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>293</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>709</x>
+     <y>419</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_exit</sender>
+   <signal>clicked()</signal>
+   <receiver>Platform</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>593</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>316</x>
+     <y>241</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_exit</sender>
+   <signal>clicked()</signal>
+   <receiver>pushButton_closeCamera</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>593</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>25</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_openImg</sender>
+   <signal>clicked()</signal>
+   <receiver>centralwidget</receiver>
+   <slot>showFullScreen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>493</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>240</x>
+     <y>240</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
